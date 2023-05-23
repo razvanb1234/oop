@@ -1,0 +1,20 @@
+import java.util.Random;
+public class ex6 {
+	
+public static void main(String[] args) {
+	 Random random1 = new Random();
+	 Random random2 =new Random();
+	float x= random1.nextFloat();
+	 float y= random2.nextFloat();
+	 
+	 System.out.println("Numerele sunt: " + x);
+	 System.out.println(""+ y);
+	 System.out.println("Suma: " + (x+y));
+	 System.out.println("Diferenta: " + (x-y));
+	 System.out.println("Inmultire: " + (x*y));
+	 System.out.println("Impartire: " + (x/y));
+	
+}
+
+}
+

@@ -1,0 +1,59 @@
+import java.util.Scanner;
+
+
+public class ex1 {
+static Scanner in = new Scanner(System.in);
+ 	public static void main(String[] args) {
+ 		
+ 		
+ 		int luna;
+ 		String luna2;
+ 		System.out.println("Introdu numarul lunii:");
+ 		luna = in.nextInt();
+ 		
+ 		
+ 		
+		String month;
+		switch (luna) {
+			case 1: month = "Ianuarie"; break;
+			case 2: month = "Februarie"; break;
+			case 3: month = "Martie"; break;
+			case 4: month = "Aprilie"; break;
+			case 5: month = "Mai"; break;
+			case 6: month = "Iunie"; break;
+			case 7: month = "Iulie"; break;
+			case 8: month = "August"; break;
+			case 9: month = "Septembrie"; break;
+			case 10: month = "Octombrie"; break;
+			case 11: month = "Noiembrie"; break;
+			case 12: month = "Decembrie"; break;
+			default: month = "numar incorect"; break;
+		}
+		System.out.println(month);
+		
+		
+		System.out.println("Introdu luna: ");
+		luna2 = in.next();
+		
+		switch (luna2) { 
+			case "Ianuarie": 	luna = 1; break; 
+			case "Februarie": 	luna = 2; break; 
+			case "Martie":  luna = 3; break; 
+			case "Aprilie": 	luna = 4; break; 
+			case "Mai": 	luna = 5; break; 
+			case "Iunie": 	luna = 6; break; 
+			case "Iulie": 	luna = 7; break; 
+			case "August": 	luna = 8; break; 
+			case "Septembrie": 	luna = 9; break; 
+			case "Octombrie": 	luna = 10; break; 
+			case "Noiembrie": 	luna = 11; break; 
+			case "Decembrie": 	luna = 12; break; 
+			//default: 		luna = 0; 
+		} 
+		System.out.println(luna2);
+ 		
+ 	}
+	
+}
+
+
