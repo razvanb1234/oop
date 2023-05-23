@@ -1,0 +1,38 @@
+
+//Balau Razvan ex 3
+
+
+
+import java.util.Scanner;
+
+
+public class ex3 {
+	private static Scanner dis;
+	
+
+	public static void main(String args[]) {
+
+		dis = new Scanner(System.in);
+		
+		
+		System.out.print("primul numar ");
+		System.out.flush();
+		
+		int a = dis.nextInt();
+		
+		System.out.print("al doilea numar ");
+		System.out.flush();
+
+		
+		int b = dis.nextInt();
+
+		
+		while (a!=b)
+			if (a>b)
+				a= a-b;
+			else 
+				b= b-a;
+		System.out.println(a + " e cmmdc");
+			
+	}
+}

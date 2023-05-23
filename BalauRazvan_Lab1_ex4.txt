@@ -1,0 +1,22 @@
+//Balau Razvan ex 5
+
+import java.util.Scanner;
+
+public class ex5 {
+	private static Scanner dis;
+
+	public static void main(String args[]) {
+		dis = new Scanner(System.in);
+		System.out.print("Introduceti un numar: ");
+		int a= dis.nextInt();
+		for(int i =2; i<= a/2; i++) {
+			if (a %i == 0) 
+				System.out.println("Este numar prim !");
+				else
+				System.out.println("Nu este numar prim");
+			
+		}
+		
+		
+	}
+}

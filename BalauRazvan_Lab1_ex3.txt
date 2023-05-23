@@ -1,0 +1,24 @@
+//Balau Razvan Ex 4
+
+import java.util.Scanner;
+public class ex4 {
+private static Scanner dis;
+	
+
+	public static void main(String args[]) {
+//DataInputStream dis = new DataInputStream(System.in);
+		dis = new Scanner(System.in);// System.in is an InputStream
+		
+		
+		System.out.print("Introduceti un nr: ");
+
+		
+		int b = dis.nextInt();
+		
+		
+		for(int i=1; i<b ; i++ )
+			if (b % i ==0 )
+		System.out.println(i + " e divizor");
+			
+	}
+}
